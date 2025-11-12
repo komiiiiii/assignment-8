@@ -1,0 +1,205 @@
+body {
+      background-color: #111;
+      color: #f5f5f5;
+      padding-top: 70px; 
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10000; 
+      background-color: #000; 
+      padding: 10px 40px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+.brand-logo {
+  width: 35px;         
+  height: 35px;
+  border-radius: 50%;  
+  margin-right: 8px;   
+  object-fit: cover;
+}
+
+    .navbar-brand, .nav-link {
+      color: #f5f5f5 !important;
+    }
+    .nav-link:hover {
+      color: #999 !important;
+    }
+  .btn {
+  background-color: #222 !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #444 !important;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#styleBox {
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+
+.modal-content {
+  background-color: #1a1a1a !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.concert-input {
+  display: block;
+  width: 50%;
+  max-width: 300px;
+  padding: 8px;
+  text-align: left;
+  background-color: #111;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
+.concert-input::placeholder {
+  color: #888;
+}
+
+
+.concert-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px #ffffff; 
+}
+
+.form-label {
+  color: #f5f5f5;
+}
+
+.form-control,
+.form-select {
+  background-color: #111;
+  color: #f5f5f5;
+  border: 1px solid #444;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #1c1c1c;
+  border-color: #777;
+  box-shadow: none;
+}
+
+.btn-light {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.btn-outline-light:hover {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+
+.btn:hover {
+  background-color: #999 !important;
+  color: #111 !important;
+}
+
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      color: #f5f5f5;
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+    }
+    .btn-outline-light:hover {
+      background: #f5f5f5;
+      color: #111;
+    }
+    .gallery img {
+      transition: transform 0.4s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      background-color: #111;
+      border-top: 1px solid #333;
+      color: #999;
+    }
+
+#concertInput {
+  color: white;
+}
+
+.tobuy-input-row {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+#taskInput {
+  color: white;
+}
+.tobuy-input {
+  flex: 1;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
+.tobuy-input::placeholder {
+  color: #888;
+}
+
+.tobuy-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 500px;
+}
+
+.tobuy-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.tobuy-text {
+  cursor: pointer;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.tobuy-delete-btn {
+  border: 1px solid #555;
+  background-color: #222;
+  color: #f5f5f5;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+}
+
+.tobuy-delete-btn:hover {
+  background-color: #999;
+  color: #111;
+}
+.album-cover {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
