@@ -30,6 +30,70 @@ body {
 .nav-link:hover {
   color: #ff2a2a !important;
 }
+.album-page {
+  min-height: 100vh;
+  background: #050505;
+  padding: 160px 80px 80px;
+}
+
+.album-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 120px;
+  align-items: center;
+}
+
+.album-cover {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.album-info {
+  max-width: 650px;
+}
+
+.album-info h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+
+.album-info h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #f5f5f5;
+}
+
+.album-info p,
+.album-info li {
+  color: #f5f5f5;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.album-info .btn {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+@media (max-width: 900px) {
+  .album-page {
+    padding: 120px 25px 60px;
+  }
+
+  .album-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .album-cover {
+    width: 100%;
+    height: auto;
+  }
+}
 
 /* TITLES */
 
