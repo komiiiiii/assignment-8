@@ -110,16 +110,19 @@ h2, h3 {
 
 /* CARDS */
 
-.card {
-  background: rgba(20,20,20,0.92);
-  border: 1px solid #2f2f2f;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 35px rgba(255,0,0,0.18);
+}
+.card,
+.card-body,
+.card-title,
+.card-text {
+  color: #ffffff !important;
+}
+
+.card-text {
+  opacity: 0.85;
 }
 
 /* BUTTONS */
