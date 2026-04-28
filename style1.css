@@ -187,3 +187,114 @@ footer {
   border-top: 1px solid #292929;
   color: #999;
 }
+.merch-section {
+  background: #fff;
+  color: #16200c;
+  padding: 55px 0;
+}
+
+.merch-section .section-title {
+  color: #16200c;
+  padding-left: 24px;
+}
+
+.merch-scroll {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  padding: 0 24px 25px;
+}
+
+.merch-card {
+  min-width: 390px;
+  position: relative;
+}
+
+.merch-card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  background: #eee;
+}
+
+.merch-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #f7f7f7;
+  color: #1e2710;
+  padding: 10px 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.merch-card h3 {
+  margin-top: 12px;
+  font-size: 1.15rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #16200c;
+}
+
+.merch-card p {
+  color: #16200c;
+}
+
+.concert-section {
+  background:
+    repeating-conic-gradient(
+      from 0deg,
+      #20232b 0deg 12deg,
+      #1a1d25 12deg 24deg
+    );
+  color: #fff;
+  padding: 60px 32px;
+}
+
+.live-title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.concert-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 0;
+}
+
+.concert-date {
+  color: #d7ff00;
+  font-weight: 900;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.concert-place {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.concert-row h3 {
+  font-size: 1.55rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ticket-btn {
+  color: #fff;
+  text-decoration: none;
+  border: 2px dotted #d7ff00;
+  padding: 14px 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.ticket-btn:hover {
+  background: #d7ff00;
+  color: #111;
+}
