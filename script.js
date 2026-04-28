@@ -41,19 +41,6 @@ function changeParagraph() {
     Commentators have suggested that this period marked a shift in how new bands were promoted and marketed.
   `;
 }
-function changeBackground() {
-  const box = document.getElementById("styleBox");
-  box.style.backgroundColor = "purple";   
-}
-
-function changeFontSize() {
-  const box = document.getElementById("styleBox");
-
-  // Get current font size and increase it by 2px
-  const currentSize = window.getComputedStyle(box).fontSize;
-  const newSize = parseInt(currentSize) + 2 + "px";
-  box.style.fontSize = newSize;
-}
 // Creating & removing elements
 const bandMembers = [
   "Chris Salih",
