@@ -131,29 +131,45 @@
     </div>
   </section>
 
-  <section id="content" class="container my-5" >
-  <section class="container my-5 fade-page">
+  <section id="content" class="about-section fade-page">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-5">
+        <img
+          src="https://www.rollingstone.com/wp-content/uploads/2021/04/Twenty-One-Pilots-Main-Pub-2021-Ashley-Osborn-LO.jpg?w=1600&h=900&crop=1"
+          class="about-img"
+          alt="Twenty One Pilots"
+        >
+      </div>
 
-    <div class="row">
-      <div class="col-12 text-center fw-bold mb-3 border-bottom pb-2">Header</div>
-      <div class="col-md-3 bg-dark text-light p-3">Sidebar</div>
-      <div class="col-md-9 bg-secondary text-light p-3" >
-        <h2>Main Content</h2>
-        <p id="changeText">
-        Twenty One Pilots is an American musical duo from Columbus, Ohio. The group was formed in 2009 by lead vocalist Tyler Joseph along with Nick Thomas and Chris Salih, who both left in 2011. Since their departure, the line-up has consisted of Tyler Joseph and drummer Josh Dun. The duo is best known for their singles "Stressed Out", "Ride", and "Heathens", which achieved commercial success between 2015 and 2016. The duo received a Grammy Award for Best Pop Duo/Group Performance at the 59th Annual Grammy Awards for "Stressed Out".
+      <div class="col-md-7">
+        <p class="section-label">About</p>
+        <h2>Twenty One Pilots</h2>
+
+        <p>
+          Twenty One Pilots is an American musical duo from Columbus, Ohio.
+          The group is known for genre-blending music, emotional lyrics, and
+          powerful live performances.
         </p>
-        <div id="styleBox">
-        The band's musical style has been described as alternative rock, electropop, alternative hip-hop, pop rap, indie pop, pop rock, rap rock, electronic rock, indie rock, hip-hop, emo, and indietronica.
+
+        <div class="info-box">
+          Their style mixes alternative rock, electropop, hip-hop, indie pop,
+          rap rock, and electronic rock.
         </div>
+
         <h3>Current and former band members</h3>
 
-        <ul id="itemList" class="list-group w-50  my-3">
-          <li class="list-group-item bg-dark text-light">Tyler Joseph</li>
-          <li class="list-group-item bg-dark text-light">Josh Dun</li>
+        <ul id="itemList" class="member-list">
+          <li>Tyler Joseph</li>
+          <li>Josh Dun</li>
         </ul>
 
-        <button class="btn btn-light me-2" onclick="addItem()">Add member</button>
-        <button class="btn btn-outline-light" onclick="removeItem()">Remove member</button>
+        <button class="btn btn-main me-2" onclick="addItem()">Add member</button>
+        <button class="btn btn-outline-main" onclick="removeItem()">Remove member</button>
+      </div>
+    </div>
+  </div>
+</section>
         <h3 class="text-light">Concert</h3>
 
         <input
