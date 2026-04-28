@@ -114,9 +114,6 @@ h2, h3 {
   transform: translateY(-8px);
   box-shadow: 0 15px 35px rgba(255,0,0,0.18);
 }
-.card,
-.card-body,
-.card-title,
 .card-text {
   color: #ffffff !important;
 }
