@@ -109,11 +109,9 @@ h2, h3 {
 }
 
 /* CARDS */
-
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(255,0,0,0.18);
-}
+.card,
+.card-body,
+.card-title,
 .card-text {
   color: #ffffff !important;
 }
@@ -122,6 +120,10 @@ h2, h3 {
   opacity: 0.85;
 }
 
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(255,0,0,0.18);
+}
 /* BUTTONS */
 
 .btn {
